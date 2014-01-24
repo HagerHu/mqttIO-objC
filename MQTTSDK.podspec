@@ -7,9 +7,9 @@ Pod::Spec.new do |s|
 
 # Source Info
   s.platform     =  :ios, '5.0'
-  s.source       =  { :git => 'https://github.com/HagerHu/mqttIO-objC.git', :tag => 'MQTT MQTT4iOS MQTTSDK' }
+  s.source       =  { :git => 'https://github.com/HagerHu/mqttIO-objC.git', :tag => s.version.to_s }
   s.source_files = 'Classes/*.{h,m}'
-	s.public_header_files = 'Classes/MQTTSDK.h'
+	s.public_header_files = 'Classes/*.h'
 
   s.requires_arc = true
   
