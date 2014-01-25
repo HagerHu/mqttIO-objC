@@ -1,5 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = 'MQTTSDK'
+	s.version      = "0.1.2"
   s.license      =  { :type => 'MIT', :file => 'LICENSE' }
   s.homepage     = 'https://github.com/m2mIO/mqttIO-objC'
   s.authors      =  { 'Kyle Roche' => 'kyle@m2m.io' }
